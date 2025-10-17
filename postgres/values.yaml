@@ -6,6 +6,7 @@ postgres:
   host: postgres
   db: digihub
   port: 5432
+  nodePort: 30042
   persistence:
     enabled: true
     size: 5Gi
