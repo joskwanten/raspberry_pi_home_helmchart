@@ -12,10 +12,10 @@ sudo kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-
 Omdat je Pi geen LoadBalancer heeft, kun je port-forward doen:
 
 ```bash
-sudo kubectl port-forward svc/argocd-server -n argocd 8080:443
+sudo kubectl port-forward --address 0.0.0.0 svc/argocd-server -n argocd 8080:443
 ```
 
-open nu: https://localhost:8080
+[open link: https://raspberrypi:8080](https://raspberrypi:8080)
 
 
 Secret achterhalen:
