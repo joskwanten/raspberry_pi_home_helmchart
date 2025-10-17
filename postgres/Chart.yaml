@@ -1,0 +1,10 @@
+apiVersion: v2
+name: digihub-postgres
+description: Helm chart for Digihub services, including PostgreSQL, RabbitMQ, and applications
+type: application
+version: 0.1.0            # version of this Helm chart
+appVersion: "1.0"         # version of your application stack
+
+# Optional keywords for searching
+keywords:
+  - postgres

@@ -1,0 +1,11 @@
+postgres:
+  image: timescale/timescaledb:2.22.1-pg17
+  platform: linux/amd64   # alleen nodig voor Apple Silicon / x86 emulatie
+  user: postgres
+  password: postgres
+  host: postgres
+  db: digihub
+  port: 5432
+  persistence:
+    enabled: true
+    size: 5Gi
