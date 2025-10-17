@@ -4,6 +4,7 @@ postgres:
   user: postgres
   password: postgres
   host: postgres
+  db: home
   port: 5432
   nodePort: 30042
   persistence:
